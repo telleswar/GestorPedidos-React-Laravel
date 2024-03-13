@@ -1,5 +1,4 @@
 <?php
-require __DIR__ . '/../public/index.php';
 
 /**
  * Built assets aren't currently routeable via vercel-php
@@ -12,3 +11,5 @@ if ($_GET['type'] === 'css') {
     header('Content-Type: application/javascript; charset: UTF-8');
     echo require __DIR__ . '/../public/build/assets/' . basename($_GET['file']);
 }
+
+require __DIR__ . '/../public/index.php';
