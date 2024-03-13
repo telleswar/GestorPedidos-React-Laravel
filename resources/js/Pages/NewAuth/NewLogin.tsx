@@ -1,14 +1,11 @@
-import GuestLayout from '@/Layouts/GuestLayout';
 import { useEffect, FormEventHandler } from 'react';
 import { Head, Link, useForm } from '@inertiajs/react';
-import { PageProps } from '@/types';
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import TextInput from '@/Components/TextInput';
 import InputError from '@/Components/InputError';
-import PrimaryButton from '@/Components/PrimaryButton';
 
-export default function Teste({ status, canResetPassword }: { status?: string, canResetPassword: boolean }) {
+export default function NewLogin({ status, canResetPassword }: { status?: string, canResetPassword: boolean }) {
 
     const { data, setData, post, processing, errors, reset } = useForm({
         email: '',
