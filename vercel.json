@@ -24,6 +24,7 @@
       ],
     "env": {
         "APP_ENV": "production",
+        "APP_NAME": "Floricultura",
         "APP_DEBUG": "true",
         "APP_URL": "https://gestor-pedidos-react-laravel-five.vercel.app",
  
