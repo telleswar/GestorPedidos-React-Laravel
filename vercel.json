@@ -27,6 +27,13 @@
         "APP_NAME": "Floricultura",
         "APP_DEBUG": "true",
         "APP_URL": "https://gestor-pedidos-react-laravel-five.vercel.app",
+
+        "DB_CONNECTION": "pgsql",
+        "DB_HOST": "ep-fancy-glade-a5um27hz.us-east-2.aws.neon.tech",
+        "DB_PORT": "5432",
+        "DB_DATABASE": "gestorpedidos",
+        "DB_USERNAME": "gestorpedidos_owner",
+        "DB_PASSWORD": "zHNCEg7quR8X",
  
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
