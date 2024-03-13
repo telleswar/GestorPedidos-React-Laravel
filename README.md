@@ -1,1 +1,0 @@
-# GestorPedidos-React-Laravel
