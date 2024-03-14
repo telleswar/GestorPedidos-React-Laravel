@@ -28,12 +28,12 @@
         "APP_DEBUG": "true",
         "APP_URL": "https://gestor-pedidos-react-laravel-five.vercel.app",
 
-        "DB_CONNECTION": "pgsql",
-        "DB_HOST": "ep-fancy-glade-a5um27hz.us-east-2.aws.neon.tech",
-        "DB_PORT": "5432",
-        "DB_DATABASE": "gestorpedidos",
-        "DB_USERNAME": "gestorpedidos_owner",
-        "DB_PASSWORD": "zHNCEg7quR8X",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "monorail.proxy.rlwy.net",
+        "DB_PORT": "55490",
+        "DB_DATABASE": "railway",
+        "DB_USERNAME": "root",
+        "DB_PASSWORD": "hNZDmqxNDaRjwfFzcTqUzazdxIDUHqzl",
  
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
